@@ -77,7 +77,7 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 768px) {
   p {
     font-size: 0.9rem;
   }
@@ -360,7 +360,7 @@ p {
   color: #92A9BD;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   #visualization {
     padding: 5% 5%;
     background-color: #3EDBF0;
@@ -477,7 +477,7 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   #solution {
     padding: 3% 2%;
     text-align: center;
@@ -606,7 +606,7 @@ p {
   color: #000000;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   #testimonials {
     background-color: #3b065e;
     color: #000;
@@ -736,7 +736,7 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   #sec-soln {
     padding: 4% 5%;
   }
@@ -835,7 +835,7 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   #process {
     padding: 9% 4%;
     background-color: #3b065e;
@@ -947,7 +947,7 @@ font-size: 1.1rem;
   padding-left: 3%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   #final {
     padding: 3% 5%;
     text-align: center;
@@ -1046,7 +1046,7 @@ font-size: 1.1rem;
   color: #fff;
 }
 
-@media (max-width: 900px){
+@media (max-width: 768px){
   .foot{
     padding: 8% 2% 8% 2%;
     background-color: #2C3333;
