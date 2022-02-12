@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Demo Two</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/0d96d650b8.js" crossorigin="anonymous"></script>
+  <!-- new fontawesome -->
+  <script src="https://kit.fontawesome.com/ea3a45a086.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <!-- navbar section -->
+
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end navbar-light bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close text-reset navbar-dark bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Feature</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#solution">Action</a></li>
+                <li><a class="dropdown-item" href="#testimonials">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#sec-soln">solution</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#final">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- TITLE SECTION -->
+
+  <section id="title">
+
+    <div class="title-co">
+      <div class="title-co-1">
+        <div class="title-co-2">
+
+          <h1 class="title-heading">Web Software Developers</h1>
+          <p class="title-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+          <button class="title-btn" type="button" name="button">READ MORE</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Features section -->
+
+  <section id="features">
+
+    <h1 class="feature-title-heading">Key Features</h1>
+    <p class="feature-text">Sample text. Click to select the text box. Click again or double click to start editing the text</p>
+
+    <div class=" feature-all">
+      <img class="feature-img" src="img/feature.jpg" alt="">
+      <div class="container px-5">
+        <div class="feature-1-a">
+          <div class="row gx-5">
+            <div class=" col-lg-5 col-md-5 col-sm-12 feature-box-1 p-5  border">
+              <i class="feature-icon fas fa-laptop-code fa-4x"></i>
+              <h4>Development</h4>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-12 feature-box-2 p-5 border">
+              <i class="feature-icon fas fa-briefcase fa-4x"></i>
+              <h4>Top Skills</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container px-5">
+        <div class="row gx-5">
+          <div class=" col-lg-5 col-md-5 col-sm-12 feature-box-3 p-5  border">
+            <i class="feature-icon fas fa-layer-group fa-4x"></i>
+            <h4>Design</h4>
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-sm-12 feature-box-4  p-5 border">
+            <i class="feature-icon fas fa-desktop fa-4x"></i>
+            <h4>Responisve</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Visualization section -->
+
+  <section id="visualization">
+
+    <div class="container-fluid visual-all">
+      <div class="row">
+
+        <div class="visual-box-one col-lg-7 col-md-12">
+          <h1 class="visual-heading">Data Visualization</h1>
+          <img class="visual-img" src="img/visual.jpg" alt="">
+        </div>
+
+        <div class="visual-box-two col-lg-4  col-md-12">
+          <div class="visual-box-two-a">
+            <h3 class="visual-sub-heading">01. GOALS</h3>
+            <p class="visual-text-one">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            <a class="visual-anchor" href="#">MORE</a>
+          </div>
+
+          <div class="visual-box-two-b">
+            <h3 class="visual-sub-heading">02. STRATAGY</h3>
+            <p class="visual-text-two">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            <a class="visual-anchor" href="#">MORE</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions section -->
+
+  <section id="solution">
+
+    <img class="solution-img" src="img/IT-one.jpg" alt="">
+
+    <div class="solution-one">
+      <h1 class="solution-heading">IT solutions</h1>
+      <p class="solution-text">We collaborate with you to create new value through digital transformation. We have hundreds of specialists at your service.</p>
+      <button class="solution-btn" type="button" name="button">LEARN MORE</button>
+    </div>
+
+  </section>
+
+  <!-- testimonials section -->
+
+  <section id="testimonials">
+    <img class="test-img" src="img/test.jpg" alt="">
+    <img class="test-cross-img" src="img/cross-line.png" alt="">
+
+    <div class="test-box">
+      <div class="row">
+
+        <div class="test-one col-lg-5">
+          <i class="fas fa-hands fa-3x test-icon"></i>
+          <h4 class="test-text">DEVELOPMENT</h4>
+        </div>
+
+        <div class="test-two col-lg-5">
+          <i class="fas fa-signal fa-3x test-icon"></i>
+          <h4 class="test-text">5G NETWORK</h4>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="test-three col-lg-5">
+          <i class="fas fa-head-side-cough fa-3x test-icon"></i>
+          <h4 class="test-text">AI PRODUCTS</h4>
+        </div>
+
+        <div class="test-four col-lg-5">
+          <i class="fas fa-podcast fa-3x test-icon"></i>
+          <h4 class="test-text">AUTOMATION</h4>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- SECOND SOLUTIONS -->
+
+  <section id="sec-soln">
+
+    <img class="sec-soln-img" src="img/sec-soln-img.jpg" alt="">
+
+    <div class="sec-soln-box">
+      <h1 class="sec-soln-heading">IT solutions</h1>
+      <p class="sec-soln-text">We collaborate with you to create new value through digital transformation. We have hundreds of specialists at your service.</p>
+      <button class="sec-soln-btn" type="button" name="button">LEARN MORE</button>
+    </div>
+
+  </section>
+
+
+  <!-- PROCESS SECTION -->
+
+  <section id="process">
+
+    <div class="container-fluid row process-box-all">
+
+      <div class="col-lg-6 process-sub-box-one">
+        <h1 class="process-heading">We are directly involved in t​he process</h1>
+      </div>
+
+      <div class="col-lg-6 process-sub-box-two">
+        <p class="process-text-one">Nibh tortor id aliquet lectus. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. In hac habitasse platea dictumst quisque. </p>
+        <p class="process-text-two">Non quam lacus suspendisse faucibus interdum. Tempor nec feugiat nisl pretium. Mi in nulla posuere sollicitudin aliquam ultrices. Quisque egestas diam in arcu cursus euismod quis. Libero volutpat sed cras ornare
+          arcu dui vivamus arcu.</p>
+        <button class="process-btn" type="button" name="button">LEARN MORE</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- final section -->
+
+  <section id="final">
+
+    <h1 class="final-heading">Get in Touch!</h1>
+    <p class="final-text">We align leaders around a shared purpose and strategic story that catalyzes their business and brand to take action.</p>
+
+    <div class=" final-all">
+      <div class="row final-in">
+
+        <div class="col-lg-3 final-box-one">
+          <i class="bi bi-geo-alt"></i>
+          <svg class="final-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path
+              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          </svg>
+          <h5>Address:</h5>
+          <p class="final-in-text">121 Rock Sreet, 21 Avenue,New York, NY 92103-9000</p>
+        </div>
+
+        <div class="col-lg-3 final-box-two">
+          <svg class="final-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+          </svg>
+          <h5>Email:</h5>
+          <a class="final-anchor" href="#">hello@company.com</a>
+          <br>
+          <a class="final-anchor" href="#">support@company.com</a>
+        </div>
+
+        <div class="col-lg-3 final-box-three">
+          <svg class="final-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg>
+          <h5>Call us:</h5>
+          <p class="final-in-text">1 (234) 567-891 <br> 1 (234) 987-654</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+<footer class="foot">
+  <p class="foot-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+  <hr class="foot-line">
+  <p class="foot-text-two">copyright © 2022 Bharath <a class="foot-anchor" href="#">Website Templates</a> created with <a class="foot-anchor" href="#">Website Builder Software</a> </p>
+</footer>
+
+</html>
