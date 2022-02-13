@@ -14,8 +14,7 @@ p {
 
 /* title section */
 #title {
-  background-image: url(../bg/title.png);
-  background-size: cover;
+  background-color: #3b065e;
   padding: 7% 7%;
 }
 
@@ -83,9 +82,8 @@ p {
   }
 
   #title {
-    background-image: url(../bg/title.png);
+    background-color: #3b065e;
     margin-top: 50px;
-    background-size: cover;
     padding: 2% 2%;
     line-height: normal;
   }
