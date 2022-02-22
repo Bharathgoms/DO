@@ -258,14 +258,14 @@ p {
   }
 
   .feature-img {
-    width: 84%;
+    width: 100%;
     border-radius: 20px;
   }
 
   .feature-box-1 {
     background-color: #3EDBF0;
     border-radius: 20px;
-    width: 420px;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px
   }
@@ -273,7 +273,7 @@ p {
   .feature-box-2 {
     background-color: #7900FF;
     border-radius: 20px;
-    width: 420px;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px
   }
@@ -281,7 +281,7 @@ p {
   .feature-box-3 {
     background-color: #B983FF;
     border-radius: 20px;
-    width: 420px;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px
   }
@@ -289,7 +289,7 @@ p {
   .feature-box-4 {
     background-color: #FF449F;
     border-radius: 20px;
-    width: 420px;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px
   }
@@ -360,13 +360,11 @@ p {
 
 @media (max-width: 768px) {
   #visualization {
-    padding: 5% 5%;
+    padding: 5% 3%;
     background-color: #3EDBF0;
     color: #1A1A40;
   }
-
-  .visual-box-one {}
-
+  
   .visual-all {
     margin-top: 30px;
     text-align: left;
@@ -394,13 +392,11 @@ p {
   }
 
   .visual-box-two-a {
-    margin-top: 40px;
-    margin-left: 0px;
+    margin: 3%;
   }
 
   .visual-box-two-b {
-    margin-top: 40px;
-    margin-left: 0px;
+    margin: 3%;
   }
 
   .visual-text-one {
@@ -505,7 +501,7 @@ p {
 
   .solution-one {
     position: relative;
-    width: 450px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -612,7 +608,7 @@ p {
   }
 
   .test-img {
-    width: 87%;
+    width: 100%;
     left: 30px;
     right: auto;
     position: absolute;
@@ -623,7 +619,7 @@ p {
 
   .test-cross-img {
     width: 80%;
-    height: 120%;
+    height: 90%;
     position: absolute;
     margin-top: 30px;
     margin-left: 40px;
@@ -974,22 +970,25 @@ font-size: 1.1rem;
   .final-box-one {
     background-color: #3b065e;
     color: #fff;
-    margin: 0 0 20px 0;
+    margin: 2%;
     padding: 13%;
+    width: 100%;
   }
 
   .final-box-two {
     background-color: #3b065e;
     color: #fff;
-    margin: 0 0 20px 0;
+    margin: 2%;
     padding: 13% 10% 13% 10%;
+    width: 100%;
   }
 
   .final-box-three {
     background-color: #3b065e;
     color: #fff;
-    margin: 0 0 20px 0;
+    margin: 2%;
     padding: 13% 10% 13% 10%;
+    width: 100%;
   }
 
 .final-in-text{
