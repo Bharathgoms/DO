@@ -481,9 +481,7 @@ p {
   .solution-img {
     float: none;
     width: 100%;
-    position: absolute;
-    top: 3600px;
-    left: 0px;
+    position: static;    
     object-fit: contain;
   }
 
@@ -500,7 +498,7 @@ p {
   }
 
   .solution-one {
-    position: relative;
+    position: static;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -738,7 +736,7 @@ p {
   .sec-soln-box {
     margin-top: 40px;
     text-align: center;
-    position: static;
+    position: relative;
   }
 
   .sec-soln-img {
@@ -746,8 +744,7 @@ p {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
-    display: block;
-    position: static;
+    position: relative;
   }
 
   .sec-soln-heading {
